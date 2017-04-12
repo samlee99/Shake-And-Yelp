@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Shake_and_Yelp
 
 class Shake_and_YelpTests: XCTestCase {
     

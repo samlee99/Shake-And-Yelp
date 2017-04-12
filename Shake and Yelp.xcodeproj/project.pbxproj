@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B349D3B97C06CEE9C6D7BD7 /* libPods-Shake and Yelp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9999EC0C4E0D4C37746A052 /* libPods-Shake and Yelp.a */; };
 		EF154A2D1E9412C3007EBDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF154A2C1E9412C3007EBDA6 /* AppDelegate.swift */; };
 		EF154A2F1E9412C3007EBDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF154A2E1E9412C3007EBDA6 /* ViewController.swift */; };
 		EF154A321E9412C3007EBDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF154A301E9412C3007EBDA6 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		EF154A371E9412C3007EBDA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF154A351E9412C3007EBDA6 /* LaunchScreen.storyboard */; };
 		EF154A421E9412C3007EBDA6 /* Shake_and_YelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF154A411E9412C3007EBDA6 /* Shake_and_YelpTests.swift */; };
 		EF154A4D1E9412C3007EBDA6 /* Shake_and_YelpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF154A4C1E9412C3007EBDA6 /* Shake_and_YelpUITests.swift */; };
+		EF154A5C1E9414D5007EBDA6 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF154A5B1E9414D5007EBDA6 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F952622C03D12C9961ECC1A /* Pods-Shake and Yelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shake and Yelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shake and Yelp/Pods-Shake and Yelp.release.xcconfig"; sourceTree = "<group>"; };
+		E3AED4DF9714DE3066F5E190 /* Pods-Shake and Yelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shake and Yelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shake and Yelp/Pods-Shake and Yelp.debug.xcconfig"; sourceTree = "<group>"; };
+		E9999EC0C4E0D4C37746A052 /* libPods-Shake and Yelp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shake and Yelp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF154A291E9412C3007EBDA6 /* Shake and Yelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake and Yelp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF154A2C1E9412C3007EBDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF154A2E1E9412C3007EBDA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,8 @@
 		EF154A481E9412C3007EBDA6 /* Shake and YelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake and YelpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF154A4C1E9412C3007EBDA6 /* Shake_and_YelpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_and_YelpUITests.swift; sourceTree = "<group>"; };
 		EF154A4E1E9412C3007EBDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF154A5A1E9414D4007EBDA6 /* Shake and Yelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shake and Yelp-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF154A5B1E9414D5007EBDA6 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B349D3B97C06CEE9C6D7BD7 /* libPods-Shake and Yelp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85A8CEDDA43BEF0A6CE31CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9999EC0C4E0D4C37746A052 /* libPods-Shake and Yelp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBE13BE80AEAA52CDBECAA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3AED4DF9714DE3066F5E190 /* Pods-Shake and Yelp.debug.xcconfig */,
+				4F952622C03D12C9961ECC1A /* Pods-Shake and Yelp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF154A201E9412C3007EBDA6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				EF154A401E9412C3007EBDA6 /* Shake and YelpTests */,
 				EF154A4B1E9412C3007EBDA6 /* Shake and YelpUITests */,
 				EF154A2A1E9412C3007EBDA6 /* Products */,
+				CEBE13BE80AEAA52CDBECAA3 /* Pods */,
+				85A8CEDDA43BEF0A6CE31CBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +130,8 @@
 				EF154A331E9412C3007EBDA6 /* Assets.xcassets */,
 				EF154A351E9412C3007EBDA6 /* LaunchScreen.storyboard */,
 				EF154A381E9412C3007EBDA6 /* Info.plist */,
+				EF154A5B1E9414D5007EBDA6 /* test.m */,
+				EF154A5A1E9414D4007EBDA6 /* Shake and Yelp-Bridging-Header.h */,
 			);
 			path = "Shake and Yelp";
 			sourceTree = "<group>";
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF154A511E9412C3007EBDA6 /* Build configuration list for PBXNativeTarget "Shake and Yelp" */;
 			buildPhases = (
+				22BE1BFE849296CF45A3BAC1 /* [CP] Check Pods Manifest.lock */,
 				EF154A251E9412C3007EBDA6 /* Sources */,
 				EF154A261E9412C3007EBDA6 /* Frameworks */,
 				EF154A271E9412C3007EBDA6 /* Resources */,
+				996729850443D09128FE2FC4 /* [CP] Embed Pods Frameworks */,
+				3F2D552820BC798A3A25C4B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +225,8 @@
 				TargetAttributes = {
 					EF154A281E9412C3007EBDA6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B3GLHJ5TGT;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					EF154A3C1E9412C3007EBDA6 = {
@@ -254,6 +288,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22BE1BFE849296CF45A3BAC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2D552820BC798A3A25C4B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shake and Yelp/Pods-Shake and Yelp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		996729850443D09128FE2FC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shake and Yelp/Pods-Shake and Yelp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF154A251E9412C3007EBDA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +343,7 @@
 			files = (
 				EF154A2F1E9412C3007EBDA6 /* ViewController.swift in Sources */,
 				EF154A2D1E9412C3007EBDA6 /* AppDelegate.swift in Sources */,
+				EF154A5C1E9414D5007EBDA6 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,24 +493,33 @@
 		};
 		EF154A521E9412C3007EBDA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AED4DF9714DE3066F5E190 /* Pods-Shake and Yelp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B3GLHJ5TGT;
 				INFOPLIST_FILE = "Shake and Yelp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samlee.Shake-and-Yelp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shake and Yelp/Shake and Yelp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		EF154A531E9412C3007EBDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F952622C03D12C9961ECC1A /* Pods-Shake and Yelp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = B3GLHJ5TGT;
 				INFOPLIST_FILE = "Shake and Yelp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samlee.Shake-and-Yelp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shake and Yelp/Shake and Yelp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +597,7 @@
 				EF154A531E9412C3007EBDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF154A541E9412C3007EBDA6 /* Build configuration list for PBXNativeTarget "Shake and YelpTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +606,7 @@
 				EF154A561E9412C3007EBDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF154A571E9412C3007EBDA6 /* Build configuration list for PBXNativeTarget "Shake and YelpUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +615,7 @@
 				EF154A591E9412C3007EBDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
