@@ -74,6 +74,41 @@ class ViewController: UIViewController {
         searchTextField.resignFirstResponder()
     }
     
+    override var canBecomeFirstResponder: Bool {
+        return true
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            let latitude = locationManager.location?.coordinate.latitude
+            let longitude = locationManager.location?.coordinate.longitude
+            let coordinate = YLPCoordinate(latitude: latitude!, longitude: longitude!)
+            let term = searchTextField.text!
+            
+            client?.search(with: coordinate,
+                           term: term,
+                           limit: 3,
+                           offset: 0,
+                           sort: .bestMatched,
+                           completionHandler:
+                { search, error in
+                    guard search != nil else {
+                        print("Searched errored: \(error)")
+                        return
+                    }
+                    guard let topBusiness = search?.businesses.first else {
+                        print("No businesses found")
+                        return
+                    }
+                    print("Top business: \(topBusiness.name), id: \(topBusiness.identifier)")
+                    
+                    DispatchQueue.main.async {
+                        self.chosenPlaceLabel.text = "Top business: \(topBusiness.name)"
+                    }
+            })
+        }
+    }
+    
 }
 
 extension ViewController: CLLocationManagerDelegate {
